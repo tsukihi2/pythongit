@@ -9,4 +9,4 @@ if((idade >= 18) & (idade(gen == 1)):
     resultado=((0.063*peso) + 2.896)*239
     print(resultado)
 else:
-    print('valor invalid')
+    print('valor invalido')

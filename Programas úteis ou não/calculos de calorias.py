@@ -22,4 +22,4 @@ elif((idade >= 30) & (gen == 2)):
     print(resultado)
     #print('vc é uma mulher de peso {}kg e idade {}'.format(peso, idade))
 else:
-    print('valor invalido burro nice')
+    print('valor invalido burro nice try')
