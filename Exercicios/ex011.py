@@ -1,5 +1,5 @@
-salario = float(input('qual o salário de um funcionario?\n'))
-aumento = float(input('qual o valor do aumento?\n'))
-resultado = salario + (salario*(aumento/100))
-print('o salario de {} com {}% de aumento fica em {}'.format(
-    salario, aumento, resultado))
+l = float(input('Qual a largura da parede??\n'))
+h = float(input('Qual a altura da parede?\n'))
+area = l*h
+tinta = area/2
+print('A área da parede é de {} m² \ne a quantidade de tinta necessária é de {} latas.'.format(area, tinta))

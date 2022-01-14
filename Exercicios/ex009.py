@@ -1,5 +1,12 @@
-l = float(input('Qual a largura da parede??\n'))
-h = float(input('Qual a altura da parede?\n'))
-area = l*h
-tinta = area/2
-print('A área da parede é de {} m² \ne a quantidade de tinta necessária é de {} latas.'.format(area, tinta))
+n = int(input('digite um número para ver sua tabuada\n'))
+print('='*12)
+print('{} x {:2} = {:2}'.format(n, 1, n*1))
+print('{} x {:2} = {}'.format(n, 2, n*2))
+print('{} x {:2} = {}'.format(n, 3, n*3))
+print('{} x {:2} = {}'.format(n, 4, n*4))
+print('{} x {:2} = {}'.format(n, 5, n*5))
+print('{} x {:2} = {}'.format(n, 6, n*6))
+print('{} x {:2} = {}'.format(n, 7, n*7))
+print('{} x {:2} = {}'.format(n, 8, n*8))
+print('{} x {:2} = {}'.format(n, 9, n*9))
+print('='*12)
